@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>home</title>
+    <link rel="stylesheet" href="public\assets\css\vertical-layout-light\index.css">
+    <link href="https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css" rel="stylesheet" />
+</head>
+<body>
+    <nav>
+        <div class="nav-brand"></div>
+        <a href="" class="sk-ml-5">Kategori</a>
+        <input type="search" name="search_modul" class="sk-input-search-nav" id="id_modul">
+        <ul class="sk-list-menu">
+            <li><a href="">Mitra</a></li>
+            <li><a href="">Jadi Guru</a></li>
+        </ul>
+        <ul>
+            <li><div class="sk-icon-keranjang"></div></li>
+            <li><a role="button" class="sk-btn-masuk" href="home.html">Masuk</a></li>
+            <li><a role="button" class="sk-btn-daftar" href="about.html">Daftar</a></li>
+            <li><div class="sk-icon-global"></div></li>
+        </ul>
+    </nav>
+    
+    <div class="slider_container">
+        <div class="slider">
+          <img src="/public/assets/images/banner1.png" alt="img1" />
+          <img src="/public/assets/images/banner1.png" alt="img2" />
+    
+          <img src="/public/assets/images/banner1.png" alt="img3" />
+        </div>
+        <div class="indicator">
+          <span class="btn1 dots"></span>
+          <span class="btn2 dots"></span>
+          <span class="btn3 dots"></span>
+        </div>
+    </div>
+
+    <script type="text/javascript">
+        const slide = document.querySelector(".slider");
+        const btn1 = document.querySelector(".btn1");
+        const btn2 = document.querySelector(".btn2");
+        const btn3 = document.querySelector(".btn3");
+        btn1.onclick = function () {
+            slide.style.transform = "translateX(0px)";
+        };
+        btn2.onclick = function () {
+            slide.style.transform = "translateX(-100%)";
+        };
+        btn3.onclick = function () {
+            slide.style.transform = "translateX(-200%)";
+        };
+
+    </script>
+</body>
+</html>

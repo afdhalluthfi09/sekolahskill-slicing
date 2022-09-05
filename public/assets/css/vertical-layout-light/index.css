@@ -1,0 +1,151 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap");
+nav {
+  padding: 10px;
+  display: flex;
+  font-size: 16px;
+  justify-content: space-between;
+  align-items: center;
+}
+nav ul {
+  display: flex;
+  list-style: none;
+}
+nav ul li {
+  margin: 0 10px;
+}
+nav ul li a {
+  text-decoration: none;
+  color: #000;
+}
+nav ul li .sk-btn-masuk {
+  background-color: #fff;
+  color: #000;
+  border: 1px solid #000;
+  padding: 10px 20px;
+  border-radius: 5px;
+}
+nav ul li .sk-btn-daftar {
+  background-color: #000;
+  color: #fff;
+  padding: 10px 20px;
+  border-radius: 5px;
+}
+nav .sk-list-menu {
+  width: 207px;
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+}
+nav .sk-list-menu li {
+  margin: 0 10px;
+  flex-grow: 4;
+}
+nav .sk-list-menu li a {
+  text-decoration: none;
+  color: #000;
+}
+nav .sk-list-menu li:first-of-type {
+  text-align: left;
+}
+nav a {
+  text-decoration: none;
+  color: #000;
+}
+nav .sk-icon-keranjang {
+  width: 16px;
+  height: 16px;
+  background: url("/public/assets/icons/keranjang.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+nav .sk-icon-global {
+  width: 16px;
+  height: 16px;
+  background: url("/public/assets/icons/globe_language.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+nav .sk-input-search-nav {
+  width: 38%;
+  height: 30px;
+  border: 1px solid #000;
+  border-radius: 30px;
+  padding: 0 10px;
+  font-size: 12px;
+  margin: 0;
+}
+nav .nav-brand {
+  width: 100px;
+  height: 100px;
+  background: url("/public/assets/images/Logo.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center center;
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+nav .sk-ml-5 {
+  margin-left: 42px;
+  margin-right: 44px;
+}
+
+.sk-container {
+  width: 100%;
+  padding: 15px;
+}
+
+.slider_container {
+  position: relative;
+  height: 100%;
+  overflow: hidden;
+}
+
+.slider {
+  display: inline-flex;
+  transition: 0.9s;
+}
+.slider img {
+  width: 100%;
+  background-size: 100% 100%;
+  background-position: center;
+}
+
+.indicator {
+  position: absolute;
+  display: inline-flex;
+  cursor: pointer;
+  left: 45%;
+  bottom: 20%;
+}
+
+.dots {
+  background-color: #fff;
+  height: 15px;
+  width: 15px;
+  border-radius: 50%;
+  transition: 0.8s;
+  margin-left: 8px;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+.dots:hover {
+  background-color: #549491;
+}
+
+* {
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: #FFFFFF;
+}
+
+body {
+  max-width: 100%;
+}/*# sourceMappingURL=index.css.map */
