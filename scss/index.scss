@@ -12,6 +12,30 @@
     background-color: #FFFFFF;
 }
 
+h1{
+    font-size: 32px;
+    font-weight: 700;
+    letter-spacing: .5px;
+    width: fit-content;
+}
+h2{
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 28.8px;
+    letter-spacing: .2px;
+    width: fit-content;
+    background: #F7F9FA;
+    color: #1C1D1F;
+}
+
+.sk-btn{
+    max-width: 230px;
+    padding: 4px 20px;
+}
+.sk-btn-border{
+    border: 1px solid #000;
+}
+
 body{
     max-width: 100%;
 }
