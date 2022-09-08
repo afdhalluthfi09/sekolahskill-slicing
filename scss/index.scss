@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
 @import "nav";
 @import "home";
+@import "detail";
 
 
 *{
@@ -26,6 +27,10 @@ h2{
     width: fit-content;
     background: #F7F9FA;
     color: #1C1D1F;
+}
+
+.sk-transparency{
+    background-color:transparent;
 }
 
 .sk-btn{
@@ -57,7 +62,9 @@ h2{
 .sk-mt-45{
     margin-top: 45px;
 }
-
+.sk-ml-176{
+    margin-left: 176px;
+}
 body{
     max-width: 100%;
 }

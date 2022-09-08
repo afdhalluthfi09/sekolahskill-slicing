@@ -663,6 +663,115 @@ html {
   line-height: 17px;
 }
 
+#modulHero {
+  width: 100%;
+  min-height: 329px;
+  background-color: #1C1D1F;
+  padding-top: 7px;
+}
+#modulHero .sk-subtitle-hero {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+  letter-spacing: 0.2px;
+  color: #CEC0FC;
+  background-color: transparent;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+}
+#modulHero .sk-title-hero {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 39px;
+  letter-spacing: 0.5px;
+  color: #FFFFFF;
+  background-color: transparent;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+}
+#modulHero .sk-subtitle-second-hero {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 19px;
+  line-height: 27px;
+  color: #CEC0FC;
+  background-color: transparent;
+  max-width: 600px;
+}
+#modulHero .sk-contain-dflex {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 322px;
+  background-color: transparent;
+}
+
+#modulViewMenu {
+  position: relative;
+}
+#modulViewMenu .container-grid-opening {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  justify-content: space-around;
+  align-content: space-evenly;
+  align-items: center;
+  justify-items: stretch;
+}
+#modulViewMenu .container-grid-opening .sk-card-menu-views {
+  width: 700px;
+  height: 48px;
+  position: relative;
+  top: -33px;
+  left: 176px;
+  padding: 6px;
+  border: #F5F5F5 1px solid;
+  background: #FFFFFF;
+}
+#modulViewMenu .container-grid-opening .sk-card-menu-views ul {
+  display: flex;
+  min-width: 600px;
+  list-style: none;
+  margin-top: 9px;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  align-content: center;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+}
+#modulViewMenu .container-grid-opening .sk-card-menu-views ul li {
+  margin-right: 20px;
+  text-align: center;
+}
+#modulViewMenu .container-grid-opening .sk-card-menu-views ul li a {
+  text-decoration: none;
+  text-align: center;
+  color: #000;
+}
+#modulViewMenu .container-grid-opening .sk-card-videos-views {
+  padding: 5px;
+  max-width: 350px;
+  background-color: #fff;
+}
+#modulViewMenu .container-grid-opening .sk-card-videos-views .sk-thumbnail {
+  width: 340px;
+  height: 191px;
+  background: black;
+}
+#modulViewMenu .container-grid-opening .sk-card-videos-views .sk-flex-column {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  align-items: stretch;
+  align-content: space-between;
+}
+
 * {
   font-family: "Roboto", sans-serif;
   font-size: 16px;
@@ -691,6 +800,10 @@ h2 {
   width: fit-content;
   background: #F7F9FA;
   color: #1C1D1F;
+}
+
+.sk-transparency {
+  background-color: transparent;
 }
 
 .sk-btn {
@@ -728,6 +841,10 @@ h2 {
 
 .sk-mt-45 {
   margin-top: 45px;
+}
+
+.sk-ml-176 {
+  margin-left: 176px;
 }
 
 body {
