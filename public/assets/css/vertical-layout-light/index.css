@@ -723,18 +723,18 @@ html {
   justify-items: stretch;
 }
 #modulViewMenu .container-grid-opening .sk-card-menu-views {
-  width: 700px;
-  height: 48px;
+  min-width: 700px;
+  min-height: 100%;
   position: relative;
-  top: -317px;
+  bottom: 40px;
   left: 176px;
-  padding: 6px;
   border: #F5F5F5 1px solid;
   background: #FFFFFF;
 }
 #modulViewMenu .container-grid-opening .sk-card-menu-views ul {
   display: flex;
-  min-width: 600px;
+  width: 600px;
+  height: 48px;
   list-style: none;
   margin-top: 9px;
   flex-direction: row;
@@ -753,12 +753,123 @@ html {
   text-align: center;
   color: #000;
 }
+#modulViewMenu .container-grid-opening .sk-card-menu-views .contain-1 {
+  padding: 23px 0px 0px 25px;
+}
+#modulViewMenu .container-grid-opening .sk-card-menu-views .contain-1 .sk-contain-title {
+  background: transparent;
+  background-color: white;
+}
+#modulViewMenu .container-grid-opening .sk-card-menu-views .contain-1 .table {
+  background: transparent;
+  background-color: white;
+  display: table;
+  width: 100%;
+}
+#modulViewMenu .container-grid-opening .sk-card-menu-views .contain-1 .table .table-row {
+  display: table-row;
+}
+#modulViewMenu .container-grid-opening .sk-card-menu-views .contain-1 .table .table-row .table-cell {
+  display: table-cell;
+  padding: 10px;
+}
+#modulViewMenu .container-grid-opening .sk-card-menu-views .contain-1 .table .table-row .table-cell .sk-title {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 28.8px;
+  letter-spacing: 0.2px;
+  color: #1C1D1F;
+  background-color: transparent;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+}
+#modulViewMenu .container-grid-opening .sk-card-menu-views .contain-1 .table .table-row .table-cell .sk-subtitle {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19.2px;
+  letter-spacing: 0.2px;
+  color: #1C1D1F;
+  background-color: transparent;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+}
+#modulViewMenu .container-grid-opening .sk-card-menu-views .contain-1 .table .table-row .table-cell .sk-text {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+  letter-spacing: 0.2px;
+  color: #1C1D1F;
+  background-color: transparent;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+}
+#modulViewMenu .container-grid-opening .sk-card-menu-views .contain-1 .table .table-row .table-cell .sk-icon-checklist-16 {
+  width: 16px;
+  height: 16px;
+  background: url("/public/assets/icons/check-list.png");
+  background-repeat: no-repeat;
+  background-size: auto;
+  background-position: center center;
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+#modulViewMenu .container-grid-opening .sk-card-menu-views .contain-2 .sk-subdetail-title {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19.6px;
+  letter-spacing: 0.2px;
+  color: #1C1D1F;
+  background-color: transparent;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+}
+#modulViewMenu .container-grid-opening .sk-card-menu-views .contain-2 .sk-subdetail-subtitle {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 19.6px;
+  letter-spacing: 0.2px;
+  color: #1C1D1F;
+  background-color: transparent;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+}
+#modulViewMenu .container-grid-opening .sk-card-menu-views .contain-2 .icon-play-video {
+  width: 16px;
+  height: 16px;
+  background: url("/public/assets/icons/icon-play-video.png");
+  background-repeat: no-repeat;
+  background-size: auto;
+  background-position: center center;
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+#modulViewMenu .container-grid-opening .sk-card-menu-views .contain-3 .icon-cycle {
+  width: 16px;
+  height: 16px;
+  background: url("/public/assets/icons/icon-list-cycle.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  -o-object-fit: contain;
+     object-fit: contain;
+}
 #modulViewMenu .container-grid-opening .sk-card-videos-views {
   max-width: 340px;
+  min-height: 665px;
   background-color: #fff;
-  position: relative;
-  top: -317px;
-  left: 259px;
+  position: absolute;
+  top: -305px;
+  left: 930px;
 }
 #modulViewMenu .container-grid-opening .sk-card-videos-views .sk-thumbnail {
   width: 340px;
@@ -871,8 +982,8 @@ h2 {
   color: #1C1D1F;
 }
 
-.sk-transparency {
-  background-color: transparent;
+.w-100 {
+  width: 100%;
 }
 
 .sk-btn {
@@ -933,6 +1044,124 @@ h2 {
 
 .sk-ml-176 {
   margin-left: 176px;
+}
+
+.sk-display-flex {
+  display: flex;
+  flex-direction: row;
+}
+
+.sk-display-flex-column {
+  display: flex;
+  flex-direction: column;
+}
+
+.sk-justify-content-center {
+  justify-content: center;
+}
+
+.sk-justify-content-space-between {
+  justify-content: space-between;
+}
+
+.sk-justify-content-space-around {
+  justify-content: space-around;
+}
+
+.sk-justify-content-flex-end {
+  justify-content: flex-end;
+}
+
+.sk-align-items-center {
+  align-items: center;
+}
+
+.sk-align-items-flex-end {
+  align-items: flex-end;
+}
+
+.sk-align-content-center {
+  align-content: center;
+}
+
+.sk-flex-wrap-nowrap {
+  flex-wrap: nowrap;
+}
+
+.sk-flex-wrap-wrap {
+  flex-wrap: wrap;
+}
+
+.sk-flex-grow-1 {
+  flex-grow: 1;
+}
+
+.sk-flex-shrink-1 {
+  flex-shrink: 1;
+}
+
+.sk-flex-basis-100 {
+  flex-basis: 100%;
+}
+
+.sk-flex-basis-50 {
+  flex-basis: 50%;
+}
+
+.sk-flex-basis-33 {
+  flex-basis: 33%;
+}
+
+.sk-flex-basis-25 {
+  flex-basis: 25%;
+}
+
+.sk-flex-basis-20 {
+  flex-basis: 20%;
+}
+
+.sk-flex-basis-16 {
+  flex-basis: 16%;
+}
+
+.sk-flex-basis-12 {
+  flex-basis: 12%;
+}
+
+.sk-flex-basis-10 {
+  flex-basis: 10%;
+}
+
+.sk-flex-basis-8 {
+  flex-basis: 8%;
+}
+
+.sk-flex-basis-6 {
+  flex-basis: 6%;
+}
+
+.sk-flex-basis-4 {
+  flex-basis: 4%;
+}
+
+.sk-flex-basis-2 {
+  flex-basis: 2%;
+}
+
+.sk-flex {
+  flex: 1;
+}
+
+.sk-border {
+  border: 0.5px solid #000;
+}
+
+.sk-transparency {
+  background: transparent;
+}
+
+.sk-bg-blue {
+  background: #e7f1ff;
 }
 
 body {

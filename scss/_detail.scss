@@ -53,17 +53,17 @@
 		align-items: center;
 		justify-items: stretch;
         .sk-card-menu-views{
-            width: 700px;
-            height: 48px;
+            min-width: 700px;
+            min-height: 100%;
             position: relative;
-            top: -317px;
+            bottom: 40px;
             left: 176px;
-            padding: 6px;
             border: #F5F5F5 1px solid;
             background: #FFFFFF;
             ul{
                 display: flex;
-                min-width: 600px;
+                width: 600px;
+                height: 48px;
                 list-style: none;
                 margin-top: 9px;
                 flex-direction: row;
@@ -82,13 +82,117 @@
                     }
                 }
             }
+            .contain-1{
+                padding: 23px 0px 0px 25px;
+                .sk-contain-title{
+                    background: transparent;
+                    background-color: #ffff;
+                }
+                .table{
+                    background: transparent;
+                    background-color: #ffff;
+                    display: table;
+                    width: 100%;
+                    .table-row{
+                        display: table-row;
+                        .table-cell{
+                            display: table-cell;
+                            padding: 10px;
+                            .sk-title{
+                                font-style: normal;
+                                font-weight: 700;
+                                font-size: 24px;
+                                line-height: 28.8px;
+                                letter-spacing: 0.2px;
+                                color: #1C1D1F;
+                                background-color: transparent;
+                                width: fit-content;
+                            }
+                            .sk-subtitle{
+                                font-style: normal;
+                                font-weight: 400;
+                                font-size: 16px;
+                                line-height: 19.2px;
+                                letter-spacing: 0.2px;
+                                color: #1C1D1F;
+                                background-color: transparent;
+                                width: fit-content;
+                            }
+                            .sk-text{
+                                font-style: normal;
+                                font-weight: 400;
+                                font-size: 14px;
+                                line-height: 17px;
+                                letter-spacing: 0.2px;
+                                color: #1C1D1F;
+                                background-color: transparent;
+                                width: fit-content;
+                            }
+                            .sk-icon-checklist-16{
+                                width: 16px;
+                                height: 16px;
+                                background: url('/public/assets/icons/check-list.png');
+                                background-repeat: no-repeat;
+                                background-size: auto;
+                                background-position: center center;
+                                object-fit: contain;
+                            }
+                        }
+                    }
+                }
+            }
+
+            .contain-2{
+                .sk-subdetail-title{
+                    font-style: normal;
+                    font-weight: 400;
+                    font-size: 16px;
+                    line-height: 19.6px;
+                    letter-spacing: 0.2px;
+                    color: #1C1D1F;
+                    background-color: transparent;
+                    width: fit-content;
+                }
+                .sk-subdetail-subtitle{
+                    font-style: normal;
+                    font-weight: 400;
+                    font-size: 13px;
+                    line-height: 19.6px;
+                    letter-spacing: 0.2px;
+                    color: #1C1D1F;
+                    background-color: transparent;
+                    width: fit-content;
+                }
+
+                .icon-play-video{
+                    width: 16px;
+                    height: 16px;
+                    background: url('/public/assets/icons/icon-play-video.png');
+                    background-repeat: no-repeat;
+                    background-size: auto;
+                    background-position: center center;
+                    object-fit: contain;
+                }
+            }
+            .contain-3{
+                .icon-cycle{
+                    width: 16px;
+                    height: 16px;
+                    background: url('/public/assets/icons/icon-list-cycle.png');
+                    background-repeat: no-repeat;
+                    background-size: cover;
+                    background-position: center center;
+                    object-fit: contain;
+                }
+            }
         }
         .sk-card-videos-views{
             max-width: 340px;
+            min-height: 665px;
             background-color: #fff;
-            position: relative;
-            top: -317px;
-            left: 259px;
+            position: absolute;
+            top: -305px;
+            left: 930px;
             .sk-thumbnail{
                 width: 340px;
                 height: 191px;
