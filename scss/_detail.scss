@@ -56,7 +56,7 @@
             width: 700px;
             height: 48px;
             position: relative;
-            top: -33px;
+            top: -317px;
             left: 176px;
             padding: 6px;
             border: #F5F5F5 1px solid;
@@ -84,21 +84,84 @@
             }
         }
         .sk-card-videos-views{
-            padding: 5px;
-            max-width: 350px;
+            max-width: 340px;
             background-color: #fff;
+            position: relative;
+            top: -317px;
+            left: 259px;
             .sk-thumbnail{
                 width: 340px;
                 height: 191px;
-                background: black;
+                background: rgb(218, 5, 5);
             }
             .sk-flex-column{
                 display: flex;
                 flex-direction: column;
                 flex-wrap: nowrap;
                 justify-content: space-between;
-                align-items: stretch;
+                align-items: center;
                 align-content: space-between;
+            }
+            .sk-detail-card-video{
+                list-style: none;
+                .grid-item{
+                    display: flex;
+                    flex-direction: row;
+                    .sk-icon-video-24{
+                        width: 24px;
+                        height: 24px;
+                        background: url('/public/assets/icons/icon-video.png');
+                        background-repeat: no-repeat;
+                        background-size: auto;
+                        background-position: center center;
+                        object-fit: contain;
+                    }
+                    .sk-icon-file-24{
+                        width: 24px;
+                        height: 24px;
+                        background: url('/public/assets/icons/icon-file.png');
+                        background-repeat: no-repeat;
+                        background-size: auto;
+                        background-position: center center;
+                        object-fit: contain;
+                    }
+                    .sk-icon-folder-download-24{
+                        width: 24px;
+                        height: 24px;
+                        background: url('/public/assets/icons/icon-folde-download.png');
+                        background-repeat: no-repeat;
+                        background-size: auto;
+                        background-position: center center;
+                        object-fit: contain;
+                    }
+                    .sk-icon-infinate-24{
+                        width: 24px;
+                        height: 24px;
+                        background: url('/public/assets/icons/icon-invinate.png');
+                        background-repeat: no-repeat;
+                        background-size: auto;
+                        background-position: center center;
+                        object-fit: contain;
+                    }
+                    .sk-icon-square-24{
+                        width: 24px;
+                        height: 24px;
+                        background: url('/public/assets/icons/icon-square.png');
+                        background-repeat: no-repeat;
+                        background-size: auto;
+                        background-position: center center;
+                        object-fit: contain;
+                    }
+                    .sk-icon-sertifikat-24{
+                        width: 24px;
+                        height: 24px;
+                        background: url('/public/assets/icons/icon-sertifikat.png');
+                        background-repeat: no-repeat;
+                        background-size: auto;
+                        background-position: center center;
+                        object-fit: contain;
+                    }
+                }
             }
         }
     }
