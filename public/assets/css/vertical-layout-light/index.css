@@ -952,6 +952,14 @@ html {
      object-fit: contain;
 }
 
+.shadow-button-3 {
+  box-shadow: 4px 4px;
+}
+.shadow-button-3:hover {
+  box-shadow: none;
+  transform: translate(0.25rem, 0.25rem);
+}
+
 * {
   font-family: "Roboto", sans-serif;
   font-size: 16px;
