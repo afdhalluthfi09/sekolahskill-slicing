@@ -1,0 +1,156 @@
+.login{
+    width: 100vw;
+    height: 100vh;
+    box-sizing: border-box;
+    background-color: #F1F6FF;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    .sk-login-image{
+        width: 147px;
+        height: 85px;   
+    }
+    .contain-form{
+        width: 39vw;
+        .sk-form-group{
+            padding: 5px 5px;
+            label{
+                font-family: 'Poppins';
+                font-style: normal;
+                font-weight: 400;
+                font-size: 0.9rem;
+                line-height: 21px;
+                color: #7E7E7E;
+            }
+            input[type=text]{
+                width: 100%;
+                padding: 12px 20px;
+                margin: 8px 0;
+                display: inline-block;
+                border: 1px solid #ccc;
+                border-radius: 4px;
+                box-sizing: border-box;
+                background-color: #F1F6FF;
+            }
+            input[type=email]{
+                width: 100%;
+                padding: 12px 20px;
+                margin: 8px 0;
+                display: inline-block;
+                border: 1px solid #ccc;
+                border-radius: 4px;
+                box-sizing: border-box;
+                background-color: #F1F6FF;
+            }
+            input[type=password]{
+                width: 100%;
+                padding: 12px 20px;
+                margin: 8px 0;
+                display: inline-block;
+                border: 1px solid #ccc;
+                border-radius: 4px;
+                box-sizing: border-box;
+                background-color: #F1F6FF;
+            }
+        }
+        .sk-row{
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            padding: 0 3px;
+            .sk-form-group{
+                padding: 5px 5px;
+                label{
+                    font-family: 'Poppins';
+                    font-style: normal;
+                    font-weight: 400;
+                    font-size: 0.9rem;
+                    line-height: 21px;
+                    color: #7E7E7E;
+                }
+                input[type=checkbox] + label {
+                    font-family: 'Poppins';
+                    font-style: italic;
+                    font-weight: 400;
+                    font-size: 0.9rem;
+                    line-height: 21px;
+                    color: #7E7E7E;
+                  } 
+                input[type=checkbox]:checked + label {
+                    font-family: 'Poppins';
+                    font-style: normal;
+                    font-weight: 400;
+                    font-size: 0.9rem;
+                    line-height: 21px;
+                    color: #000;
+                } 
+            }
+            a{
+                font-family: 'Poppins';
+                font-style: normal;
+                font-weight: 600;
+                font-size: 14px;
+                line-height: 21px;
+                color: #2666CF;
+            }
+        }
+        .sk-login{
+            width: 38.6vw;
+            height: 50px;
+            background: #2666CF;
+            border: none;
+            border-radius: 15px;
+            font-family: 'Poppins';
+            font-style: normal;
+            font-weight: 500;
+            font-size: $base-font-size;
+            line-height: 30px;
+            text-align: center;
+            color: #FFFFFF;
+            cursor: pointer;
+        }
+
+        h2 {
+            width: 100%; 
+            text-align: center; 
+            border-bottom: 1px solid #000; 
+            line-height: 0.1em;
+            margin: 10px 0 20px; 
+            span {
+                background-color: #F1F6FF;
+                padding:0 10px; 
+            }
+         } 
+        .sk-btn-google{
+            width: 395px;
+            height: 50px;
+            background: #FFFFFF;
+            border-radius: 15px;
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: center;
+            margin-left: 70px;
+            cursor: pointer;
+        }
+        .sk-other-options{
+            font-family: 'Poppins';
+            font-style: normal;
+            font-weight: 400;
+            font-size: $base-font-size;
+            line-height: 21px;
+            color: #3C3C3C;
+            text-align: center;
+            a{
+                font-family: 'Poppins';
+                font-style: normal;
+                font-weight: 500;
+                font-size: $base-font-size;
+                line-height: 21px;
+                color: #2666CF;
+                text-align: center;
+            }
+        }
+    }
+}

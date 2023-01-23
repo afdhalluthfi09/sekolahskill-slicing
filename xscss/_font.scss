@@ -1,0 +1,11 @@
+@use "sass:math";
+
+$grid-column : 12;
+
+@include xs{
+    @for $i from 1 through $grid-column{
+        .text-#{$i}-xs{
+            font-size: math.div($font-size *100%,$grid-column);
+        }
+    }
+}
