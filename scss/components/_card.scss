@@ -1,0 +1,30 @@
+@use 'sass:math';
+.card{
+    display: block;
+    background-color: #ffff;
+    border: $base-border-thickness solid #ddd;
+    box-shadow: $base-box-shadow;
+    border-radius: math.div($base-border-radius,4);
+    color :map-get($colors, 'primary');
+    .card-header{
+        width: 287px;
+        height: 162px;
+        background: #D9D9D9;
+        border-radius: math.div($base-border-radius,4) math.div($base-border-radius,4) 0 0;
+    }
+    .card-body{
+        display: flex;
+        flex-direction: column;
+        padding-left: 10px;
+        margin-top: 10px;
+    }
+}
+.base-card{
+    display: block;
+    background-color: #ffff;
+    border: $base-border-thickness solid #ddd;
+    box-shadow: $base-box-shadow;
+    border-radius: math.div($base-border-radius,4);
+    color :map-get($colors, 'primary');}
+
+// @debug gunakan ini untuk melihat data di terminal
