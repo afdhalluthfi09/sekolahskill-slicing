@@ -4,503 +4,380 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>home</title>
-    <link rel="stylesheet" href="public\assets\css\vertical-layout-light\index.css">
-    <link href="https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css" rel="stylesheet" />
+    <title>Slicing Home</title>
+    <link rel="stylesheet" href="public/assets/css/vertical-layout-light/app.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 <body>
-    <nav>
-        <div class="nav-brand"></div>
-        <a href="" class="sk-ml-5">Kategori</a>
-        <input type="search" name="search_modul" class="sk-input-search-nav" id="id_modul">
-        <ul class="sk-list-menu">
-            <li><a href="">Mitra</a></li>
-            <li><a href="">Jadi Guru</a></li>
-        </ul>
+    <!-- navigisi -->
+    <nav id="sk-navbar">
+        <img src="images/logos.png" class="logo" alt="">
+        <input type="search" name="search_global" id="search_global">
         <ul>
-            <li><div class="sk-icon-keranjang"></div></li>
-            <li><a role="button" class="sk-btn-masuk" href="home.html">Masuk</a></li>
-            <li><a role="button" class="sk-btn-daftar" href="about.html">Daftar</a></li>
-            <li><div class="sk-icon-global"></div></li>
+            <li>Kelas & Event</li>
+            <li>Mitra</li>
+            <li>Loker</li>
+            <li>Artikel</li>
         </ul>
+        <div class="w-100">
+            <button class="btn-login btn-outline-secondary">Login</button>
+            <button class="btn-register">Register</button>
+        </div>
     </nav>
-    <section id="contain-imagehero">
-      <div id="mySlider"></div>
-    </section>
-    <!-- list by category-content -->
-    <section id="catalogByCategory" class="container-category">
-      <h1> Pilih Modul Materi Yang Kamu Minati</h1>
-      <p class="sk-span-detail">tersedia berbagai modul dari video dan audio</p>
-      <ul>
-        <li><a href="#">Bahasa Arab</a></li>
-        <li><a href="#">Bisnis Umkm</a></li>
-        <li><a href="#">Desain & IT</a></li>
-        <li><a href="#">Dinniyah</a></li>
-        <li><a href="#">Manajement</a></li>
-        <li><a href="#">Parenting</a></li>
-        <li><a href="#">Pengembangan Diri</a></li>
-      </ul>
-      <section id="detailCatalogByCategory">
-        <h2>Kembangkan Dirimu Dengan Bahasa Arab</h2>
-        <p>ikuti salah satu rangkaian kursus bahasa arab sekolahskill dan pelajari membaca tulisan arab tanpa harokat,berdiskusi,menulis,serta menerjemahkan kalimat, kamu bisa mengikuti ini mulai dari awal sampai tingkat mahir,segera bergabung..</p>
-        <button class="sk-btn sk-btn-border sk-btn-bahasaarab">Lihat Bahasa Arab</button>
-        <div class="sk-container-flex">
-          <div class="sk-card">
-            <div class="sk-card-header">
-              <iframe width="232" height="133" src="https://www.youtube.com/embed/tgbNymZ7vqY">
-              </iframe>
+    <!-- section big iklan -->
+    <div id="sk-home">
+        <section id="sk-bigiklan" class="sk-bigiklan justify-center">
+            <div class="sk-content">
+                <h1 class="title-content">Berbagai Kelas
+                    untuk Bantu
+                    Upgrade Skillmu</h1>
+                <p class="sub-title-content">
+                    Belajar kemampuan baru atau meningkatkan kemampuan yang sudah ada, bersama pemateri yang berpengalaman di bidangnya.
+                </p>
+                <button class="btn-content">Mulai</button>
             </div>
-            <div class="sk-card-body">
-              <span class="sk-title-subcard">Belajar Bahasa Arab</span>:<span>Kata Kerja Dalam Bahasa Arab</span>
-              <span class="sk-subtitle-subcard">Pemateri</span>: <span class="sk-subtitle-subcard-gray">Ustadz Abdul Somad</span>
-              <span class="sk-subtitle-subcard">Rating 4.4  dari 5</span>
+            <div class="sk-content-image"></div>
+        </section>
+        <!-- section feature -->
+        <section id="sk-feature" class="sk-feature">
+            <div class="row-title-features">
+                <h1>FEATURES</h1>
+                <hr class="underline">
             </div>
-          </div>
-          <div class="sk-card">
-            <div class="sk-card-header">
-              <iframe width="232" height="133" src="https://www.youtube.com/embed/tgbNymZ7vqY">
-              </iframe>
+            <div class="row-image-feature">
+                <ul>
+                    <li>
+                        <div class="display-f justify-center">
+                            <img src="images/play.svg" class="sk-img" alt="">
+                        </div>
+                        <p class="sk-title">Kelas</p>
+                        <p class="sk-subtitle">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas tincidunt varius lacinia.
+                        </p>
+                    </li>
+                    <li>
+                        <div class="display-f justify-center">
+                            <img src="images/koper.svg" class="sk-img" alt="">
+                        </div>
+                        <p class="sk-title">In Train House</p>
+                        <p class="sk-subtitle">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas tincidunt varius lacinia.
+                        </p>
+                    </li>
+                    <li>
+                        <div class="display-f justify-center">
+                            <img src="images/zoom.png" class="sk-img" alt="">
+                        </div>
+                        <p class="sk-title">Zoom</p>
+                        <p class="sk-subtitle">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas tincidunt varius lacinia.
+                        </p>
+                    </li>
+                    <li>
+                        <div class="display-f justify-center">
+                            <img src="images/event.png" class="sk-img" alt="">
+                        </div>
+                        <p class="sk-title">Event</p>
+                        <p class="sk-subtitle">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas tincidunt varius lacinia.
+                        </p>
+                    </li>
+                </ul>
             </div>
-            <div class="sk-card-body">
-              <span class="sk-title-subcard">Belajar Bahasa Arab</span>:<span>Kata Kerja Dalam Bahasa Arab</span>
-              <span class="sk-subtitle-subcard">Pemateri</span>: <span class="sk-subtitle-subcard-gray">Ustadz Abdul Somad</span>
-              <span class="sk-subtitle-subcard">Rating 4.4  dari 5</span>
+        </section>
+        <!-- section event  -->
+        <section id="sk-event" class="sk-event">
+            <div class="row-title-event">
+                <p class="sk-title-event">EVENT BULAN INI</p>
+                <div class="display-f justify-center mt-1 mb-3">
+                    <hr>
+                </div>
+                <p class="sk-subtitle-event">Ikuti Event-Event Menarik Yang Bisa Menambah Skill Kamu</p>
             </div>
-          </div>
-          <div class="sk-card">
-            <div class="sk-card-header">
-              <iframe width="232" height="133" src="https://www.youtube.com/embed/tgbNymZ7vqY">
-              </iframe>
+            <div class="row-content-event">
+                <div class="card-event">
+                    <div class="contain-image"></div>
+                    <div class="contain-text">
+                        <p class="sk-subtitle">SALES & MARKETING</p>
+                        <p class="sk-title-header">Build A High Performance Marketing & Sales Team</p>
+                        <span class="sk-badge">Bootcamp</span>
+                        <p class="sk-pemateri">Jumadi Subur, S.E., M.M., CPHR</p>
+                        <p class="sk-status">Marketing Manager Indosat Ooredoo</p>
+                        <ul>
+                            <li>
+                                <img src="images/icon-date.svg"  class="icon-date" alt="">
+                                <p>23-24 November 2022  |  09.00 - 17.00</p>
+                            </li>
+                            <li>
+                                <img src="images/icon-point.svg"  class="icon-date" alt="">
+                                <p>Burza Hotel Yogyakarta</p>
+                            </li>
+                        </ul>
+                        <button class="btn-detail">Detail</button>
+                    </div>
+                </div>
             </div>
-            <div class="sk-card-body">
-              <span class="sk-title-subcard">Belajar Bahasa Arab</span>:<span>Kata Kerja Dalam Bahasa Arab</span>
-              <span class="sk-subtitle-subcard">Pemateri</span>: <span class="sk-subtitle-subcard-gray">Ustadz Abdul Somad</span>
-              <span class="sk-subtitle-subcard">Rating 4.4  dari 5</span>
+        </section>
+        <!-- section kelas list -->
+        <section id="sk-kelas-list" class="sk-kelas-list">
+            <div class="row-title-event">
+                <p class="sk-title-event">KELAS TERLARIS</p>
+                <div class="display-f justify-center mt-1 mb-3">
+                    <hr>
+                </div>
             </div>
-          </div>
-          <div class="sk-card">
-            <div class="sk-card-header">
-              <iframe width="232" height="133" src="https://www.youtube.com/embed/tgbNymZ7vqY">
-              </iframe>
+            <div class="row-kelas-list">
+                <div class="card">
+                    <div class="card-header">
+
+                    </div>
+                    <div class="card-body">
+                        <div class="sk-sub-panel">
+                            <p>HRD</p>
+                            <button>Kelas</button>
+                        </div>
+                        <div class="sk-title-panel">
+                            Kelas Human Resource Development
+                        </div>
+                        <div class="sk-pemateri">
+                            Ustadz Agus Waluyo
+                        </div>
+
+                        <div class="sk-rating">
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star"></span>
+                            <span class="fa fa-star"></span>
+                        </div>
+                    </div>
+                    <div class="sk-harga">
+                        <button class="btn-detail"> Detail</button>
+                        Rp.55.000
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-header">
+
+                    </div>
+                    <div class="card-body">
+                        <div class="sk-sub-panel">
+                            <p>HRD</p>
+                            <button>Kelas</button>
+                        </div>
+                        <div class="sk-title-panel">
+                            Kelas Nahwu Dasar Level 1 (Kitab Muyassar fii Ilmin Nahwi Ibnu Azka Press Jilid 1)
+                        </div>
+                        <div class="sk-pemateri">
+                            Ustadz Agus Waluyo
+                        </div>
+
+                        <div class="sk-rating">
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star"></span>
+                            <span class="fa fa-star"></span>
+                        </div>
+                    </div>
+                    <div class="sk-harga">
+                        <button class="btn-detail"> Detail</button>
+                        Rp.55.000
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-header">
+
+                    </div>
+                    <div class="card-body">
+                        <div class="sk-sub-panel">
+                            <p>HRD</p>
+                            <button>Kelas</button>
+                        </div>
+                        <div class="sk-title-panel">
+                            Kelas Nahwu Dasar Level 1 (Kitab Muyassar fii Ilmin Nahwi Ibnu Azka Press Jilid 1)
+                        </div>
+                        <div class="sk-pemateri">
+                            Ustadz Agus Waluyo
+                        </div>
+
+                        <div class="sk-rating">
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star"></span>
+                            <span class="fa fa-star"></span>
+                        </div>
+                    </div>
+                    <div class="sk-harga">
+                        <button class="btn-detail"> Detail</button>
+                        Rp.55.000
+                    </div>
+                </div>
             </div>
-            <div class="sk-card-body">
-              <span class="sk-title-subcard">Belajar Bahasa Arab</span>:<span>Kata Kerja Dalam Bahasa Arab</span>
-              <span class="sk-subtitle-subcard">Pemateri</span>: <span class="sk-subtitle-subcard-gray">Ustadz Abdul Somad</span>
-              <span class="sk-subtitle-subcard">Rating 4.4  dari 5</span>
+            <div class="row-btn-detail">
+                <button class="btn-list-all">Lihat Semua Kelas</button>
             </div>
-          </div>
-          <div class="sk-card">
-            <div class="sk-card-header">
-              <iframe width="232" height="133" src="https://www.youtube.com/embed/tgbNymZ7vqY">
-              </iframe>
+        </section>
+        <!-- section kategory -->
+        <section id="sk-kategory" class="sk-kategory">
+            <div class="sk-content-category">
+                <h1>Kategori kelas</h1>
+                <h3>
+                    Belajar kemampuan baru atau meningkatkan kemampuan yang sudah ada, bersama pemateri yang berpengalaman di bidangnya.
+                </h3>
             </div>
-            <div class="sk-card-body">
-              <span class="sk-title-subcard">Belajar Bahasa Arab</span>:<span>Kata Kerja Dalam Bahasa Arab</span>
-              <span class="sk-subtitle-subcard">Pemateri</span>: <span class="sk-subtitle-subcard-gray">Ustadz Abdul Somad</span>
-              <span class="sk-subtitle-subcard">Rating 4.4  dari 5</span>
+            <div class="sk-content-category-list">
+                <div class="contain-row">
+                    <div class="card-category">
+                        <div class="contain-image"></div>
+                        <div class="contain-text">
+                            <h3>Al-Quran</h3>
+                            <p> 1 Kelas</p>
+                        </div>
+                    </div>
+                    <div class="card-category">
+                        <div class="contain-image"></div>
+                        <div class="contain-text">
+                            <h3>Bahasa Arab</h3>
+                            <p> 1 Kelas</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="contain-row mt-2">
+                    <div class="card-category">
+                        <div class="contain-image"></div>
+                        <div class="contain-text">
+                            <h3>Bisnis UMKM</h3>
+                            <p> 1 Kelas</p>
+                        </div>
+                    </div>
+                    <div class="card-category">
+                        <div class="contain-image"></div>
+                        <div class="contain-text">
+                            <h3>Desain & IT</h3>
+                            <p> 1 Kelas</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="contain-row mt-2">
+                    <div class="card-category">
+                        <div class="contain-image"></div>
+                        <div class="contain-text">
+                            <h3>HRD</h3>
+                            <p> 1 Kelas</p>
+                        </div>
+                    </div>
+                    <div class="card-category">
+                        <div class="contain-image"></div>
+                        <div class="contain-text">
+                            <h3>Manajemen</h3>
+                            <p> 1 Kelas</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="contain-row mt-2">
+                    <div class="card-category">
+                        <div class="contain-image"></div>
+                        <div class="contain-text">
+                            <h3>Parenting</h3>
+                            <p> 1 Kelas</p>
+                        </div>
+                    </div>
+                    <div class="card-category">
+                        <div class="contain-image"></div>
+                        <div class="contain-text">
+                            <h3>Digital Marketing</h3>
+                            <p> 1 Kelas</p>
+                        </div>
+                    </div>
+                </div>
             </div>
-          </div>
-        </div>
-      </section>
-    </section>
-    <!-- list by category -->
-    <section id="containCategory">
-      <h1>Kategori</h1>
-      <div class="contain-grid-category">
-        <div class="grid-item">
-          <div class="grid-image1"></div>
-        </div>
-        <div class="grid-item">
-          <div class="grid-image2"></div>
-        </div>
-        <div class="grid-item">
-          <div class="grid-image3"></div>
-        </div>
-        <div class="grid-item">
-          <div class="grid-image4"></div>
-        </div>
-        <div class="grid-item">
-          <div class="grid-image5"></div>
-        </div>
-        <div class="grid-item">
-          <div class="grid-image6"></div>
-        </div>
-        <div class="grid-item">
-          <div class="grid-image7"></div>
-        </div>
-        <div class="grid-item">
-          <div class="grid-image8"></div>
-        </div>
-      </div>
-    </section>
-    <!-- list by topic -->
-    <section id="containByTopic">
-        <h2>Topik Berdasarkan Kategori</h2>
-        <table class="table">
-          <thead>
-            <tr class="table-row">
-              <td class="table-cell"><span class="table-cell-title">Bahasa Arab</span></td>
-              <td class="table-cell"> <span class="table-cell-title">Bahasa Bisnis Umkm</span></td>
-              <td class="table-cell"> <span class="table-cell-title">Desain Dan IT</span></td>
-              <td class="table-cell"> <span class="table-cell-title">Parenting</span></td>
-            </tr>
-          </thead>
-          <tbody>
-            <tr class="table-row">
-              <td class="table-cell">
-                <span class="table-cell-subtitle">Nahwu</span><br>
-                <span class="table-cell-subtitle-gray">36,176,787 murid</span>
-              </td>
-              <td class="table-cell">
-                <span class="table-cell-subtitle">Produktif dengan Berbisnis Kue Kering</span><br>
-                <span class="table-cell-subtitle-gray">1,191,385 murid</span>
-              </td>
-              <td class="table-cell">
-                <span class="table-cell-subtitle">Buat Web Sederhana</span><br>
-                <span class="table-cell-subtitle-gray">6,026,907 murid</span>
-              </td>
-              <td class="table-cell">
-                <span class="table-cell-subtitle">Belajar Puasa untuk Anak</span><br>
-                <span class="table-cell-subtitle-gray">10,872,534 murid</span>
-              </td>
-            </tr>
-            <tr class="table-row">
-              <td class="table-cell">
-                <span class="table-cell-subtitle">Ilmu Shorof</span><br>
-                <span class="table-cell-subtitle-gray">11,361,594 murid</span>
-              </td>
-              <td class="table-cell">
-                <span class="table-cell-subtitle"></span><br>
-                <span class="table-cell-subtitle-gray"></span>
-              </td>
-              <td class="table-cell">
-                <span class="table-cell-subtitle">Buat Web Sederhana</span><br>
-                <span class="table-cell-subtitle-gray">10,887,475 murid</span>
-              </td>
-              <td class="table-cell">
-                <span class="table-cell-subtitle">Optimal Golden Age Si Kecil</span><br>
-                <span class="table-cell-subtitle-gray">3,366,814 murid</span>
-              </td>
-            </tr>
-            <tr class="table-row">
-              <td class="table-cell">
-                <span class="table-cell-subtitle">Muhadasah</span><br>
-                <span class="table-cell-subtitle-gray">7,044,878 murid</span>
-              </td>
-              <td class="table-cell">
-                <span class="table-cell-subtitle"></span><br>
-                <span class="table-cell-subtitle-gray"></span>
-              </td>
-              <td class="table-cell">
-                <span class="table-cell-subtitle">Desain Grafik</span><br>
-                <span class="table-cell-subtitle-gray">3,974,254 Murid</span>
-              </td>
-              <td class="table-cell">
-                <span class="table-cell-subtitle"></span><br>
-                <span class="table-cell-subtitle-gray"></span>
-              </td>
-            </tr>
-          </tbody>
-        </table>
-    </section>
-    <!-- opening -->
-    <section id="containByOpening">
-      <div class="container-grid-opening">
-        <div class="grid-item1">
-          <div class="image-opening"></div>
-        </div>
-        <div class="grid-item2">
-          <div  style="width: 500px;" >
-            <h1>Jadi Guru Disini</h1>
-            <span>
-              Dengan menjadi pengajar di sini, kamu dapat bertemu dengan para guru,murid di berbagai daerah dengan latar yang berbeda,serta mendapatkan fasilitas yang menarik
-            </span><br>
-            <button class="sk-btn sk-btn-border sk-mt-5">Jadi Guru</button>
-          </div>
-        </div>
-      </div>
-    </section>
-    <section id="containByOpening" class="sk-mt-20">
-      <div class="container-grid-opening">
-        <div class="grid-item2">
-          <div  style="width: 500px;" >
-            <span>
-              Kembangkan Skill Kamu bersama teman-teman mu disini..
-            </span><br>
-            <button class="sk-btn sk-btn-border sk-mt-5">Jadi Murid Disni..</button>
-          </div>
-        </div>
-        <div class="grid-item3">
-          <div class="image-opening"></div>
-        </div>
-      </div>
-    </section>
-    <section id="containByOpening" class="sk-mt-20">
-      <div class="container-grid-opening">
-        <div class="grid-item4">
-          <div class="image-opening"></div>
-        </div>
-        <div class="grid-item2">
-          <div  style="width: 500px;" >
-            <h1>Mengubah hidup dengan pendidikan</h1>
-            <span>
-              Pelajar di seluruh dunia meluncurkan karir baru, maju di bidang mereka, dan memperkaya hidup mereka.
-            </span><br>
-            <button class="sk-btn sk-btn-border sk-mt-5">Jadi Guru</button>
-          </div>
-        </div>
-      </div>
-    </section>
-    <section id="containByFooter" class="sk-mt-45">
-        <table class="table">
-          <tbody>
-            <tr class="table-row">
-              <td class="table-cell"><span class="table-cell-title">Sekolahskill</span></td>
-              <td class="table-cell"><span class="table-cell-title">Blog</span></td>
-              <td class="table-cell"><span class="table-cell-title">Terms</span></td>
-            </tr>
-            <tr class="table-row">
-              <td class="table-cell"><span class="table-cell-title">Guruh Sekolahskill</span></td>
-              <td class="table-cell"><span class="table-cell-title">Kontak Cs</span></td>
-              <td class="table-cell"><span class="table-cell-title">Privacy Policy</span></td>
-            </tr>
-            <tr class="table-row">
-              <td class="table-cell"><span class="table-cell-title">Get the app</span></td>
-              <td class="table-cell"><span class="table-cell-title">Affiliate</span></td>
-              <td class="table-cell"><span class="table-cell-title">Cookie Settings</span></td>
-            </tr>
-            <tr class="table-row">
-              <td class="table-cell"><span class="table-cell-title">Tentang Sekolahskill</span></td>
-              <td class="table-cell"><span class="table-cell-title">Invstor</span></td>
-              <td class="table-cell"><span class="table-cell-title">Sitemap</span></td>
-            </tr>
-            <tr class="table-row">
-              <td class="table-cell"><span class="table-cell-title">Kontak Kami</span></td>
-              <td class="table-cell"></td>
-              <td class="table-cell"><span class="table-cell-title">Accessibility Statement</span></td>
-            </tr>
-          </tbody>
-        </table>
-    </section>
-
-    <script type="text/javascript">
-        
-        class Slider {
-          constructor({container="sliderContainer", textColor=" ", ctaBackground="white", ctaColor="black", autoplay=true, autoplaySpeed=3000, navArrows = true, dots = true, marginTop= 0}) {
-    this.currentSlideIndex = 0;
-    this.slides = [];
-    this.container = document.getElementById(container);
-    this.navArrows = navArrows;
-    this.dots = dots;
-    this.textColor = textColor;
-    this.ctaBackground = ctaBackground;
-    this.ctaColor = ctaColor;
-    this.autoplay = autoplay;
-    this.autoplaySpeed = autoplaySpeed;
-    this.marginTop = marginTop;
-  }
-
-          prevSlide = () => {
-    this.nextSlideIndex = (this.currentSlideIndex === 0) ? this.slides.length - 1 : this.currentSlideIndex - 1;
-
-    // Add a class to change slide with specific animation
-    document
-      .getElementById("slide" + this.nextSlideIndex)
-      .setAttribute("class", "singleSlide slideIn");
-    document
-      .getElementById("slide" + this.currentSlideIndex)
-      .setAttribute("class", "singleSlide slideOut");
-    document
-      .getElementById("dot" + this.nextSlideIndex)
-      .classList.add("active");
-    document
-      .getElementById("dot" + this.currentSlideIndex)
-      .classList.remove("active");
-
-    this.currentSlideIndex = this.nextSlideIndex;
-  }
-
-          nextSlide = () => {
-    this.nextSlideIndex = (this.currentSlideIndex === this.slides.length - 1) ? 0 : this.currentSlideIndex + 1;
-
-    document
-      .getElementById("slide" + this.nextSlideIndex)
-      .setAttribute("class", "singleSlide slideIn");
-    document
-      .getElementById("slide" + this.currentSlideIndex)
-      .setAttribute("class", "singleSlide slideOut");
-    document
-      .getElementById("dot" + this.nextSlideIndex)
-      .classList.add("active");
-    document
-      .getElementById("dot" + this.currentSlideIndex)
-      .classList.remove("active");
-
-    this.currentSlideIndex = this.nextSlideIndex;
-  }
-
-          goTo = (index) => {
-    var diff = (this.currentSlideIndex - index) * 100;
-    //console.log(diff);
-    this.nextSlideIndex = index;
-    if (!diff) return; 
-
-
-    var [inTransition, outTransition] =  ["singleSlide slideIn", "singleSlide slideOut"];
-
-    document
-      .getElementById("slide" + this.nextSlideIndex)
-      .setAttribute("class", inTransition);
-    document
-      .getElementById("slide" + this.currentSlideIndex)
-      .setAttribute("class", outTransition);
-    document
-      .getElementById("dot" + this.nextSlideIndex)
-      .classList.add("active");
-    document
-      .getElementById("dot" + this.currentSlideIndex)
-      .classList.remove("active");
-
-    this.currentSlideIndex = this.nextSlideIndex;
-  }
-
-          init = () => {
-
-    var newHTML = `<div id='slider'>`;
-
-    // Loop through the array and create step by step list of slides
-    this.slides.forEach(slide => {
-      newHTML +=
-        "<div id='" +
-        slide.id +
-        "' class='singleSlide' style='background-image:url(" +
-        slide.background +
-        ");'>" +
-        "<div class='slideOverlay'>" +
-        "<div style='margin-top:"+this.marginTop+"px'></div>" +
-        "<h2 class='title'>" +
-        slide.title +
-        "</h2>" +
-        "<h4 class='subtitle'>" +
-        slide.subtitle +
-        "</h4>" +
-        "<a class='sliderCta' href='" +
-        slide.link +
-        "' target='_blank'>"+slide.cta+"</a>" +
-        "</div>" +
-        "</div>";
-    });
-
-    
-    newHTML += `</div>`;
-
-    this.container.innerHTML = newHTML;
-
-    if (this.navArrows) {
-
-
-      var sliderNext = document.createElement('div');
-      sliderNext.id = 'sliderNext';
-      sliderNext.className = "sliderNav";
-      sliderNext.style.borderColor = this.ctaBackground;
-      sliderNext.onclick = this.nextSlide;
-      this.container.append(sliderNext);
-
-      var sliderPrev = document.createElement('div');
-      sliderPrev.id = 'sliderPrev';
-      sliderPrev.className = "sliderNav";
-      sliderPrev.style.borderColor = this.ctaBackground;
-      sliderPrev.onclick = this.prevSlide;
-      this.container.prepend(sliderPrev);
-    }
-
-    if (this.dots) {
-      var dots = document.createElement('div');
-      dots.id="dots";
-      this.slides.forEach((slide, index) => {
-        var dot = document.createElement('div');
-        dot.className= "dot"
-        dot.id = "dot"+index;
-        dot.onclick = e => this.goTo(index);
-        dots.append(dot);
-      })
-      this.container.append(dots);
-      document
-      .getElementById("dot" + this.currentSlideIndex)
-      .classList.add("active");
-
-    }
-
-    var style = document.createElement('style');
-        style.innerHTML = '.dot.active{ background-color: '+this.ctaBackground+'; }';
-        style.innerHTML += '.sliderCta { padding: 10px 25px; color:'+this.ctaColor+';  background-color: '+this.ctaBackground+'; text-decoration: none; }';
-        style.innerHTML += '.title, .subtitle { color:'+this.textColor+' !important }';
-    document.getElementsByTagName('head')[0].appendChild(style);
-
-    // show first slide
-      document.getElementById("slide" + this.currentSlideIndex).style.opacity = 1;
-    if(this.autoplay) setInterval(() => {
-      this.nextSlide()
-    }, this.autoplaySpeed);
-  }
-
-          newSlide = (title, subtitle, background, link, cta) => {
-    var slide = new Slide(title, subtitle, background, link, cta, this.slides.length);
-    this.slides.push(slide);
-  }
-        }
-
-// This function build a single slide
-       class Slide {
-        constructor(title, subtitle, background, link,cta, slideIndex) {
-            this.title = title;
-            this.subtitle = subtitle;
-            this.background = background;
-            this.link = link;
-            this.cta = cta;
-            this.id = "slide" + slideIndex;
-        }
-      }
-
-        const settings = {
-			    container: "mySlider", //container name
-			    textColor: "white", //text color also # or rgba
-			    ctaBackground: "#81C784", //button color, dots color and nav arrow color
-			    autoplay: true, //true/false
-			    autoplaySpeed: 10000, //time slide active before change
-			    ctaColor: "white", //cta TEXT color
-			    navArrows: true, //false to hide navigations arrows
-			    dots: true, //false to hide navigation buttons
-			    marginTop: 0, //space above first Slide, usefull when you set this slider in the first page behind header nav, this option allow you to center text manually and move the text down
-		    }
-
-        var miaslider = new Slider(settings);
-
-        miaslider.newSlide(
-                "First Slide",
-                "Lorem ipsum Dolor si amet",
-                "/public/assets/images/banner1.png",
-                "https://codepen.io/emanuelemicheletti/pen/abYarrv" ,
-                "Shop NOW"
-        );
-
-        miaslider.newSlide(
-                "Second Slide",
-                "Lorem ipsum Dolor si amet",
-                "/public/assets/images/banner1.png",
-                "https://codepen.io/emanuelemicheletti/pen/abYarrv",
-                "Open This Product"
-        );
-
-        miaslider.newSlide(
-                "Third Slide",
-                "Lorem ipsum dolor sit amet",
-                "/public/assets/images/banner1.png",
-                "https://codepen.io/emanuelemicheletti/pen/abYarrv",
-                "Shop This Product"
-        );
-
-        miaslider.init();
-    </script>
+        </section>
+        <!-- section benefit -->
+        <section id="sk-benefit" class="sk-benefit">
+            <div class="contain-benefit-image"></div>
+            <div class="contain-benefit-text">
+                <h1>Kenapa Harus Belajar di Pusat <br> Belajar Skill?</h1>
+                <div class="content-row mt-5">
+                    <div class="contain-panel-benefit">
+                        <div class="contain-icon">
+                            <img src="images/icon-people.svg" alt="">
+                        </div>
+                        <div class="contain-text">
+                            <h3>Pemateri Berpengalaman</h3>
+                            <p>Disampaikan oleh pemateri yang berpengalaman di bidangnya.</p>
+                        </div>
+                    </div>
+                    <div class="contain-panel-benefit">
+                        <div class="contain-icon">
+                            <img src="images/icon-message.svg" alt="">
+                        </div>
+                        <div class="contain-text">
+                            <h3>Grup Tanya Jawab</h3>
+                            <p>Disediakan group tanya jawab dengan pemateri.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="content-row mt-3">
+                    <div class="contain-panel-benefit">
+                        <div class="contain-icon">
+                            <img src="images/icon-dollar.svg" alt="">
+                        </div>
+                        <div class="contain-text">
+                            <h3>Pemateri Berpengalaman</h3>
+                            <p>Disampaikan oleh pemateri yang berpengalaman di bidangnya.</p>
+                        </div>
+                    </div>
+                    <div class="contain-panel-benefit">
+                        <div class="contain-icon">
+                            <img src="images/icon-sertifikat.svg" alt="">
+                        </div>
+                        <div class="contain-text">
+                            <h3>Grup Tanya Jawab</h3>
+                            <p>Disediakan group tanya jawab dengan pemateri.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- footer -->
+        <footer id="sk-footer" class="sk-footer">
+           <div class="bact1">
+                <img src="images/logo2.svg" class="mb-2" alt="logo-sekolahskill">
+                <h4 class="mb-2">
+                    Wirokerten, Kec. Banguntapan, Kab. Bantul,<br> Daerah Istimewa Yogyakarta (55184)
+                </h4>
+                <div class="contain-icon">
+                    <img src="images/icon-message-footer.svg" alt="email">
+                    <img src="images/icon-whatsaap-footer.svg" alt="whatsapp">
+                    <img src="images/icon-insta-footer.svg" alt="insta">
+                </div>
+                <div class="sk-copy-right mt-5">
+                    <p>Copyright © 2023 | Powered by Pusat Belajar Skill</p>
+                </div>
+           </div>
+           <div class="bact2">
+                <h5 class="mb-2">Sekolahskill</h5>
+                <h5 class="mb-2">Guru Sekolahskill</h5>
+                <h5 class="mb-2">Get the app</h5>
+                <h5 class="mb-2">Tentang Sekolahskill</h5>
+                <h5 class="mb-2">Kontak kami</h5>
+           </div>
+           <div class="bact3">
+                <h5 class="mb-2">Sekolahskill</h5>
+                <h5 class="mb-2">Guru Sekolahskill</h5>
+                <h5 class="mb-2">Get the app</h5>
+                <h5 class="mb-2">Tentang Sekolahskill</h5>
+           </div>
+           <div class="bact4">
+                <h5 class="mb-2">Sekolahskill</h5>
+                <h5 class="mb-2">Guru Sekolahskill</h5>
+                <h5 class="mb-2">Get the app</h5>
+                <h5 class="mb-2">Tentang Sekolahskill</h5>
+                <h5 class="mb-2">Kontak kami</h5>
+           </div>
+       </footer>
+    </div>
 </body>
 </html>
