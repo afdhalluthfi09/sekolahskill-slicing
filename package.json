@@ -1,0 +1,24 @@
+{
+  "name": "sekolahskill",
+  "version": "1.0.0",
+  "description": "rebuild with vite",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/afdhalluthfi09/sekolahskill-slicing.git"
+  },
+  "author": "afdhal luthfi",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/afdhalluthfi09/sekolahskill-slicing/issues"
+  },
+  "homepage": "https://github.com/afdhalluthfi09/sekolahskill-slicing#readme",
+  "type": "module",
+  "devDependencies": {
+    "sass": "^1.64.1",
+    "vite": "^4.4.7"
+  }
+}
