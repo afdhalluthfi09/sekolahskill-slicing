@@ -15,16 +15,6 @@
     @if($val != black and $val != white){
         @for $i from 1 through 9{
             .text-#{$key}-light-#{$i}{
-<<<<<<< HEAD
-                color: mix(white,$val,$i * 10);
-            }
-            .bg-#{$key}-light-#{$i}{
-                color: mix(white,$val,$i * 10);
-            }
-            .text-hover-#{$key}-light-#{$i}{
-                &:hover{
-                    color: mix(white, $val, $i);
-=======
                 color: mix(white,$val,$i * 10 * 1%);
             }
             .bg-#{$key}-light-#{$i}{
@@ -33,23 +23,15 @@
             .text-hover-#{$key}-light-#{$i}{
                 &:hover{
                     color: mix(white, $val, $i * 1%);
->>>>>>> 65d8dd9 (rubah file)
                 }
             }
         }
         @for $i from 1 through 9{
             .text-#{$key}-dark-#{$i}{
-<<<<<<< HEAD
-                color: mix(black, $val, $i * 10);
-            }
-            .bg-#{$key}-dark-#{$i}{
-                color: mix(black, $val, $i * 10);
-=======
                 color: mix(black, $val, $i * 10 * 1%);
             }
             .bg-#{$key}-dark-#{$i}{
                 color: mix(black, $val, $i * 10 * 1%);
->>>>>>> 65d8dd9 (rubah file)
             }
         }
     }
